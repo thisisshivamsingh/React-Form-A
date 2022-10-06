@@ -46,7 +46,7 @@ const Form = () => {
         <label htmlFor="female">Female</label>
         <input id="female" type="radio" name="gender" value="Female" onChange={(e)=>userDet(e)}/>
         <br/>
-        <label>Hobbies</label>
+        <label>Hobbies: </label>
         <input type="text" name="hobbies" value={hobbies} onChange={(e)=>userInfo(e)}/>
         <br/>
         <label>State</label>
